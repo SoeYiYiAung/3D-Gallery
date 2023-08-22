@@ -1,7 +1,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
         <div class="container  mt-3 mb-3">
-            <a class="navbar-brand"><img src="logo.png" width="12%" height="12%"></a>
+            <a class="navbar-brand"><img src="photo/logo.png" width="12%" height="12%"></a>
 
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mymenu">
                 <span class="navbar-toggler-icon"></span>

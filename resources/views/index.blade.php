@@ -14,7 +14,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="bg.jpg" class="d-block w-100" height="700px">
+                <img src="photo/bg.jpg" class="d-block w-100" height="700px">
                 <div class="carousel-caption">
                     <h1>InnoViz</h1>
                     <p>Welcome from  our Architectural Studio </p>
@@ -29,7 +29,7 @@
             </div>
 
             <div class="carousel-item ">
-                <img src="bg1.jpg" class="d-block w-100" height="700px">
+                <img src="photo/bg1.jpg" class="d-block w-100" height="700px">
                 <div class="carousel-caption">
                     <!-- <h2 style="color: slategray;">Second Slide</h2>
                     <p>This is a description for second slide. </p>
@@ -44,7 +44,7 @@
             </div>
 
             <div class="carousel-item ">
-                <img src="bg2.jpg" class="d-block w-100" height="700px">
+                <img src="photo/bg2.jpg" class="d-block w-100" height="700px">
                 <div class="carousel-caption">
                     <!-- <h2 style="color: slategray;">Third Slide</h2>
                     <p>This is a description for third slide. </p>
@@ -82,7 +82,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
+                            <img src="photo/qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
                         </div>
                         <div class="col-md-6">
                             <h4>QUALITY ASSURANCE  </h4>
@@ -95,7 +95,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="cf.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
+                            <img src="photo/cf.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
                         </div>
                         <div class="col-md-6">
                             <h4>CONFIDENTIALITY</h4>
@@ -108,7 +108,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="wf.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
+                            <img src="photo/wf.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
                         </div>
                         <div class="col-md-6">
                             <h4>WORRY-FREE</h4>
@@ -121,7 +121,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="rs.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
+                            <img src="photo/rs.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
                         </div>
                         <div class="col-md-6">
                             <h4>RESPONSIVE</h4>
@@ -135,7 +135,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
+                            <img src="photo/qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
                         </div>
                         <div class="col-md-6">
                             <h4>OWN RENDER FARMS</h4>
@@ -160,7 +160,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active" style="position: relative;">
-                    <img src="bg.jpg" class="d-block w-100" height="700px">
+                    <img src="photo/bg.jpg" class="d-block w-100" height="700px">
                     <div class="carousel-caption inner-carousel" >
                         <h1>Hotel Name</h1>
                         <h5 class="mt-5">Architect - Ahn Hyo Seop<h5>
@@ -169,7 +169,7 @@
                 </div>                                
         
                 <div class="carousel-item" style="position: relative;">
-                    <img src="bg1.jpg" class="d-block w-100" height="700px">
+                    <img src="photo/bg1.jpg" class="d-block w-100" height="700px">
                     <div class="carousel-caption inner-carousel" >
                         <h1>Hotel Name</h1>
                         <h5 class="mt-5">Architect - Ahn Hyo Seop<h5>
@@ -178,7 +178,7 @@
                 </div>
         
                 <div class="carousel-item" style="position: relative;">
-                    <img src="bg2.jpg" class="d-block w-100" height="700px">
+                    <img src="photo/bg2.jpg" class="d-block w-100" height="700px">
                     <div class="carousel-caption inner-carousel" >
                         <h1>Hotel Name</h1>
                         <h5 class="mt-5">Architect - Ahn Hyo Seop<h5>
@@ -207,7 +207,7 @@
                         <div class="col-md-4">
                         </div>
                         <div class="col-md-4">
-                            <img src="Still.png" height="100px"  width="100px">
+                            <img src="photo/Still.png" height="100px"  width="100px">
                         </div>
                         <div class="col-md-4">
                         </div>
@@ -223,7 +223,7 @@
                         <div class="col-md-4">
                         </div>
                         <div class="col-md-4">
-                            <img src="Animations.png" height="100px"  width="100px">
+                            <img src="photo/Animations.png" height="100px"  width="100px">
                         </div>
                         <div class="col-md-4">
                         </div>
@@ -239,7 +239,7 @@
                         <div class="col-md-4">
                         </div>
                         <div class="col-md-4">
-                            <img src="VR.png" height="100px"  width="100px">
+                            <img src="photo/VR.png" height="100px"  width="100px">
                         </div>
                         <div class="col-md-4">
                         </div>
@@ -268,22 +268,22 @@
         </div>
         <div class="row  mt-1 mb-2 partner">
             <div class="col-md-3 col-sm-3 mt-2">
-                <img src="qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
+                <img src="photo/qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
             </div>
             <div class="col-md-3 col-sm-3 mt-2">
-                <img src="qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">   
+                <img src="photo/qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">   
             </div>
             <div class="col-md-3 col-sm-3 mt-2">
-                <img src="qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
+                <img src="photo/qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
             </div>
             <div class="col-md-3 col-sm-3 mt-2">
-                <img src="qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
+                <img src="photo/qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
             </div>
             <div class="col-md-3 col-sm-3 mt-2">
-                <img src="qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">   
+                <img src="photo/qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">   
             </div>
             <div class="col-md-3 col-sm-3 mt-2">
-                <img src="qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
+                <img src="photo/qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
             </div>
         </div>
 
