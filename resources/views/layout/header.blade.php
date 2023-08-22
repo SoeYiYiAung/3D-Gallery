@@ -9,8 +9,10 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="mymenu" >
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="Home.html" class="nav-link"><i class="fa fa-home mx-2 fahome"></i>HOME</a></li>
-                    <li class="nav-item"><a href="Work.html" class="nav-link">WORK</a></li>
+                    <li class="nav-item"><a href="{{route('index')}}" class="nav-link"><i class="fa fa-home mx-2 fahome"></i>HOME</a></li>
+                    {{-- <li class="nav-item"><a href="url(Work)" class="nav-link">WORK</a></li> --}}
+                    <li class="nav-item"><a href="{{ route('work') }}" class="nav-link">WORK</a></li>
+
                     <li class="nav-item"><a href="Service.html" class="nav-link">SERVICES</a></li>
                     <li class="nav-item"><a href="About.html" class="nav-link">ABOUT</a></li>
                     <!-- <li class="nav-item dropdown"><a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
