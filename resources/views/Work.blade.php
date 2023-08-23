@@ -24,7 +24,7 @@
                 <div style="height: 300px;"></div>
             <h1> COFFEE SHOP</h1><br>
             <h5>Yangon, Myanmar</h5><br>
-            <div class="btn btn-secondary" style="color:white;">Learn More</div>
+            <a href="{{route('work-detail')}}" class="btn btn-secondary" style="color:white;">Learn More</a>
             </div>
         </div>
 
@@ -34,7 +34,7 @@
                 <div style="height: 300px;"></div>
             <h1> COFFEE SHOP</h1><br>
             <h5>Yangon, Myanmar</h5><br>
-            <div class="btn btn-secondary" style="color:white;">Learn More</div>
+            <a href="{{route('work-detail')}}" class="btn btn-secondary" style="color:white;">Learn More</a>
             </div>
         </div>
 
@@ -44,7 +44,7 @@
                 <div style="height: 300px;"></div>
             <h1> COFFEE SHOP</h1><br>
             <h5>Yangon, Myanmar</h5><br>
-            <div class="btn btn-secondary" style="color:white;">Learn More</div>
+            <a href="{{route('work-detail')}}" class="btn btn-secondary" style="color:white;">Learn More</a>
             </div>
         </div>
 
@@ -54,7 +54,7 @@
                 <div style="height: 300px;"></div>
             <h1> COFFEE SHOP</h1><br>
             <h5>Yangon, Myanmar</h5><br>
-            <div class="btn btn-secondary" style="color:white;">Learn More</div>
+            <a href="{{route('work-detail')}}" class="btn btn-secondary" style="color:white;">Learn More</a>
             </div>
         </div>
     </div> 

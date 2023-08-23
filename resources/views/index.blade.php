@@ -165,6 +165,7 @@
                         <h1>Hotel Name</h1>
                         <h5 class="mt-5">Architect - Ahn Hyo Seop<h5>
                         <h5 class="mt-5">Location - Tokyo, Japan</h5>
+                        <a href="{{route('work-detail')}}" class="btn btn-secondary mt-5" style="color:white;">Learn More</a>
                     </div>
                 </div>                                
         
@@ -174,15 +175,17 @@
                         <h1>Hotel Name</h1>
                         <h5 class="mt-5">Architect - Ahn Hyo Seop<h5>
                         <h5 class="mt-5">Location - Tokyo, Japan</h5>
+                        <a href="{{route('work-detail')}}" class="btn btn-secondary mt-5" style="color:white;">Learn More</a>
                     </div>
                 </div>
         
                 <div class="carousel-item" style="position: relative;">
-                    <img src="{{ asset('photo/i10.jpg') }}" class="d-block w-100" height="700px">
+                    <img src="{{ asset('photo/i10.jpg') }}" class="d-block w-100 mt-5" height="700px">
                     <div class="carousel-caption inner-carousel" >
                         <h1>Hotel Name</h1>
                         <h5 class="mt-5">Architect - Ahn Hyo Seop<h5>
                         <h5 class="mt-5">Location - Tokyo, Japan</h5>
+                        <a href="{{route('work-detail')}}" class="btn btn-secondary" style="color:white;">Learn More</a>
                     </div>
                 </div>
                 

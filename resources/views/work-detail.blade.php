@@ -31,10 +31,10 @@
                     </p>
                 </div>
                 <div class="row mt-5">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <a href="www.facebook/innoviz.com"><i class="fab fa-facebook">  Facebook</i></a> 
-                        <a href="www.instragram.com"><i class="fab fa-instagram">  Instragram</i></a>
-                        <a href="www.twiter.com"><i class="fab fa-twitter">  Twitter</i></a>
+                    <div class="text-center">
+                        <h6 class="">Client - COFFEE SHOP</h6>
+                        <h6 class="">Rendering - INNOVIZ STUDIO</h6>
+                        <i class="fab fa-facebook">&emsp;</i><i class="fab fa-instagram"></i>&emsp;<i class="fab fa-twitter"></i>
                     </div>
                 </div>
                 
