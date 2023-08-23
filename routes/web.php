@@ -20,16 +20,39 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
-Route::get('/index', function () {
-    return view('index');
-});
+})->name('index');;
+
+Route::get('/work',function(){
+    return view('work');
+})->name('work');
+
+Route::get('/work-detail',function(){
+    return view('work-detail');
+})->name('work-detail');
+
+Route::get('/service',function(){
+    return view('service');
+})->name('service');
+
 Route::get('/about',function(){
     return view('about');
 })->name('about');
+
+Route::get('/blog',function(){
+    return view('blog');
+})->name('blog');
+
+Route::get('/blog-section',function(){
+    return view('blog-section');
+})->name('blog-section');
+
 Route::get('/contact',function(){
     return view('contact');
 })->name('contact');
+
+Route::get('/together',function(){
+    return view('together');
+})->name('together');
 
 // Route::resource('work', WorkController::class);
 // Route::resource('services', ServiceController::class);

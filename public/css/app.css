@@ -54,7 +54,7 @@
 }
 
 .gravity{
-    background-color: rgb(211, 211, 211); 
+    background-color: whitesmoke; 
     /* height: 200px; */
 
     text-align: center; font-weight:bold ;font-style: normal
@@ -84,4 +84,14 @@
     left: 50%; 
     transform: translate(-50%, -50%); 
     text-align: center;
+}
+
+.nav-item.active {
+    /* background-color: #c5def6; */
+    text-decoration: underline;
+}
+
+.btn-small {
+    width: auto;
+    padding: 5px 10px;
 }

@@ -1,4 +1,5 @@
-
+@extends('layout.master')
+@section('content')
 
     <div class="container">
         <div class="row work">
@@ -13,7 +14,7 @@
             <div class="row service">
 
                 <div class="col-md-6 mt-5 mb-5  d-flex justify-content-center align-items-center">
-                    <img src="Still.png" height="70%"  width="40%">
+                    <img src="{{ asset('photo/Still.png') }}" height="70%"  width="40%">
                 </div>
                 <div class="col-md-6 mt-5 mb-5">
                     <h2 align="center">STILL</h2>
@@ -40,11 +41,11 @@
                 </div>
                 
                 <div class="col-md-6 mt-5 mb-5 d-flex justify-content-center align-items-center">
-                    <img src="Animations.png" height="70%" width="40%">
+                    <img src="{{ asset('photo/Animations.png') }}" height="70%" width="40%">
                 </div>
                 
                 <div class="col-md-6 mt-5 mb-5 d-flex justify-content-center align-items-center">
-                    <img src="VR.png" height="70%" width="40%">
+                    <img src="{{ asset('photo/VR.png') }}" height="70%" width="40%">
                 </div>
                 
                 <div class="col-md-6 mt-5 mb-5">
@@ -63,5 +64,4 @@
         </div>    
     </div>
 
-</body>  
-</html>     
+@endsection   

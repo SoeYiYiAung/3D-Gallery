@@ -11,7 +11,7 @@
             <div class="mt-4">
                 <div class="row ">
                     <div class="col-md-12 d-flex justify-content-center">
-                        <a class="btn btn-dark" href="Together.html">LET'S WORK TOGETHER</a>
+                        <a class="btn btn-light" href="{{route('together')}}">LET'S WORK TOGETHER</a>
                     </div>
                 </div>
             </div>

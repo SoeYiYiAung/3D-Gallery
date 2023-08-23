@@ -14,7 +14,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="photo/bg.jpg" class="d-block w-100" height="700px">
+                <img src="{{ asset('photo/bg.jpg') }}" class="d-block w-100" height="700px">
                 <div class="carousel-caption">
                     <h1>InnoViz</h1>
                     <p>Welcome from  our Architectural Studio </p>
@@ -29,7 +29,7 @@
             </div>
 
             <div class="carousel-item ">
-                <img src="photo/bg1.jpg" class="d-block w-100" height="700px">
+                <img src="{{ asset('photo/bg1.jpg') }}" class="d-block w-100" height="700px">
                 <div class="carousel-caption">
                     <!-- <h2 style="color: slategray;">Second Slide</h2>
                     <p>This is a description for second slide. </p>
@@ -44,7 +44,7 @@
             </div>
 
             <div class="carousel-item ">
-                <img src="photo/bg2.jpg" class="d-block w-100" height="700px">
+                <img src="{{ asset('photo/bg2.jpg') }}" class="d-block w-100" height="700px">
                 <div class="carousel-caption">
                     <!-- <h2 style="color: slategray;">Third Slide</h2>
                     <p>This is a description for third slide. </p>
@@ -82,7 +82,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="photo/qa.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
+                            <img src="{{ asset('photo/qa.png') }}" height="150px"  width="150px" title="QUALITY ASSURANCE">
                         </div>
                         <div class="col-md-6">
                             <h4>QUALITY ASSURANCE  </h4>
@@ -95,7 +95,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="photo/cf.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
+                            <img src="{{ asset('photo/cf.png') }}" height="150px"  width="150px" title="QUALITY ASSURANCE">
                         </div>
                         <div class="col-md-6">
                             <h4>CONFIDENTIALITY</h4>
@@ -108,7 +108,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="photo/wf.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
+                            <img src="{{ asset('photo/wf.png') }}" height="150px"  width="150px" title="QUALITY ASSURANCE">
                         </div>
                         <div class="col-md-6">
                             <h4>WORRY-FREE</h4>
@@ -121,7 +121,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="photo/rs.png" height="150px"  width="150px" title="QUALITY ASSURANCE">
+                            <img src="{{ asset('photo/rs.png') }}" height="150px"  width="150px" title="QUALITY ASSURANCE">
                         </div>
                         <div class="col-md-6">
                             <h4>RESPONSIVE</h4>
@@ -160,7 +160,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active" style="position: relative;">
-                    <img src="photo/bg.jpg" class="d-block w-100" height="700px">
+                    <img src="{{ asset('photo/i8.jpg') }}" class="d-block w-100" height="700px">
                     <div class="carousel-caption inner-carousel" >
                         <h1>Hotel Name</h1>
                         <h5 class="mt-5">Architect - Ahn Hyo Seop<h5>
@@ -169,7 +169,7 @@
                 </div>                                
         
                 <div class="carousel-item" style="position: relative;">
-                    <img src="photo/bg1.jpg" class="d-block w-100" height="700px">
+                    <img src="{{ asset('photo/i9.jpg') }}" class="d-block w-100" height="700px">
                     <div class="carousel-caption inner-carousel" >
                         <h1>Hotel Name</h1>
                         <h5 class="mt-5">Architect - Ahn Hyo Seop<h5>
@@ -178,7 +178,7 @@
                 </div>
         
                 <div class="carousel-item" style="position: relative;">
-                    <img src="photo/bg2.jpg" class="d-block w-100" height="700px">
+                    <img src="{{ asset('photo/i10.jpg') }}" class="d-block w-100" height="700px">
                     <div class="carousel-caption inner-carousel" >
                         <h1>Hotel Name</h1>
                         <h5 class="mt-5">Architect - Ahn Hyo Seop<h5>
