@@ -1,4 +1,4 @@
-<footer class="container">
+<footer class="">
     <div class="row gravity mt-5">
         <div class="col-md-4">
         </div>
