@@ -34,6 +34,18 @@ Route::get('/service',function(){
     return view('service');
 })->name('service');
 
+Route::get('/portfolio-animation',function(){
+    return view('portfolio-animation');
+})->name('portfolio-animation');
+
+Route::get('/portfolio-stills',function(){
+    return view('portfolio-stills');
+})->name('portfolio-stills');
+
+Route::get('/portfolio-vr',function(){
+    return view('portfolio-vr');
+})->name('portfolio-vr');
+
 Route::get('/about',function(){
     return view('about');
 })->name('about');
@@ -53,6 +65,11 @@ Route::get('/contact',function(){
 Route::get('/together',function(){
     return view('together');
 })->name('together');
+
+
+Route::get('/vr-view',function(){
+    return view('vr-view');
+})->name('vr-view');
 
 // Route::resource('work', WorkController::class);
 // Route::resource('services', ServiceController::class);

@@ -255,7 +255,7 @@
     
                 <div class="col-sm-12">
                     <div class="mt-5 mb-5">
-                        <h5 align="center" ><a href="findoutmore.php" class="btn btn-light">Find out more</a></h5>
+                        <h5 align="center" ><a href="{{ route('service') }}" class="btn btn-light">Find out more</a></h5>
                     </div>
                 </div>
             </div>    

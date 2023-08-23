@@ -24,7 +24,7 @@
                         We got you covered with the highest quality stills for both 3D interior and 3D exterior.
                     </p>
                     <div class="mt-5 mb-5">
-                        <h5 align="center"><a href="findoutmore.php" class="btn btn-light btn-block">View Work</a></h5>
+                        <h5 align="center"><a href="{{ route('portfolio-stills') }}" class="btn btn-light btn-block">View Work</a></h5>
                     </div>
                 </div>
                 
@@ -36,7 +36,7 @@
                         Everybody loves 3D animations. Make 3D. Animate it. You’ll get love. You’ll get love.
                     </p>
                     <div class="mt-5 mb-5">
-                        <h5 align="center"><a href="findoutmore.php" class="btn btn-light btn-block">View Animation</a></h5>
+                        <h5 align="center"><a href="{{ route('portfolio-animation') }}" class="btn btn-light btn-block">View Animation</a></h5>
                     </div>
                 </div>
                 
@@ -56,7 +56,7 @@
                         You can’t get any more realistic experience with 360 panoramic images and Virtual Reality gadgets, virtually.
                     </p>
                     <div class="mt-5 mb-5">
-                        <h5 align="center"><a href="findoutmore.php" class="btn btn-light btn-block">View VR</a></h5>
+                        <h5 align="center"><a href="{{ route('portfolio-vr') }}" class="btn btn-light btn-block">View VR</a></h5>
                     </div>
                 </div>                
 
