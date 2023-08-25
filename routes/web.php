@@ -71,9 +71,15 @@ Route::get('/vr-view',function(){
     return view('vr-view');
 })->name('vr-view');
 
+
+//admin
+Route::group(['prefix'=>'admin'],function(){
+    Route::view('home','admin.index')->name('admin.index');
+});
 // Route::resource('work', WorkController::class);
 // Route::resource('services', ServiceController::class);
 // Route::resource('about', AboutController::class);
 // Route::resource('blog', BlogController::class);
 // Route::resource('contact', ContactController::class);
+
 

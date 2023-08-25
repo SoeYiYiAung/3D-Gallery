@@ -89,6 +89,7 @@
 .nav-item.active {
     /* background-color: #c5def6; */
     text-decoration: underline;
+    color: #4285f4;
 }
 
 .btn-small {
