@@ -13,13 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('works', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('photo');
-            $table->string('location');
-            $table->string('visualizer');
-            $table->string('vr_file');
+        Schema::create('blog_details', function (Blueprint $table) {
+            $table->id(); 
+            
+            $table->unsignedBigInteger('blog_id');            
+            $table->foreign('blog_id')
+                    ->references('id')->on('blogs')
+                    ->onDelete('cascade');
             $table->timestamps();
         });
     }
@@ -31,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('works');
+        Schema::dropIfExists('blog_details');
     }
 };

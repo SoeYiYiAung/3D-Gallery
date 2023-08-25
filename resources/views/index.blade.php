@@ -5,6 +5,9 @@
                 <source src="rain.mp4" type="video/mp4">
         </video>
     </div> -->
+    <span>{{$qualities}}</span>
+    <span>{{$services}}</span>
+    <span>{{$partners}}</span>
 
     <div class="carousel slide" data-bs-ride="carousel" id="myslider">
         <ol class="carousel-indicators">

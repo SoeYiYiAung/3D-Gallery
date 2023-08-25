@@ -2,6 +2,10 @@
 
 namespace App\Providers;
 
+use App\Models\Partner;
+use App\Models\Quality;
+use App\Models\Service;
+use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -24,5 +28,16 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        $qualities=Quality::get();
+
+        $services=Service::get();
+
+        $partners=Partner::get();
+
+        View::share([
+            'qualities' => $qualities,
+            'services' => $services,
+            'partners' => $partners
+        ]);
     }
 }
