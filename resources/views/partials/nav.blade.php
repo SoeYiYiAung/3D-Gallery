@@ -42,7 +42,15 @@
               <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
             </a>
 					</li>
-					
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="{{route('courses.index')}}">
+              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Course</span>
+            </a>
+					</li>
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="{{route('categories.index')}}">
+              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Category</span>
+            </a>
 					</li>
 					<li class="sidebar-item">
 						<a class="sidebar-link" href="pages-profile.html">
